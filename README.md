@@ -1,4 +1,4 @@
-# 🎓 EduPath – eLearning Landing Page
+# 🎓 EduPath – ELearning Landing Page
 
 EduPath is a modern, responsive, and performance-optimized **eLearning landing page** built with the latest web technologies including **Next.js**, **React**, **Tailwind CSS**, **shadcn/ui**, and **TypeScript**. Designed for speed, accessibility, and scalability, EduPath is powered by the lightning-fast **Bun** package manager and supports both **light** and **dark** modes for a seamless user experience.
 
