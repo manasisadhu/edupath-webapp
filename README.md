@@ -32,6 +32,10 @@ EduPath is a modern, responsive, and performance-optimized **eLearning landing p
 - ✨ **Beautiful, Clean UI** with shadcn/ui
 
 ---
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](./LICENSE) file for more details.
 
 
 
