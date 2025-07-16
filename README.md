@@ -33,5 +33,5 @@ EduPath is a modern, responsive, and performance-optimized **eLearning landing p
 
 ---
 
-## 📁 Project Structure
+
 
