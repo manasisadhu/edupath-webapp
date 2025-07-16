@@ -4,12 +4,7 @@ EduPath is a modern, responsive, and performance-optimized **eLearning landing p
 
 ---
 
-## ✨ Live Demo
 
-> Coming Soon – Deployed on [Vercel](https://vercel.com/)  
-> _(Optional: Insert your link here)_
-
----
 
 ## 🛠️ Tech Stack
 
