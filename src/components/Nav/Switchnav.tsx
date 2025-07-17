@@ -7,7 +7,7 @@ import ThemeChangerBtn from "../Theme/ThemeChangerBtn";
 const Switchnav = () => {
     return (
         <>
-          <header  className="flex justify-between items-center px-16 py-2 shadow-lg bg-white/40 backdrop-blur-md dark:bg-purple-800/20 sticky top-0">
+          <header  className="flex justify-between items-center px-24 py-2 shadow-lg bg-white/40 backdrop-blur-md dark:bg-purple-800/20 sticky top-0">
 
             <Link href={"/"}>
             <Image src={"/logo-img.png"} alt="logo" height={400} width={400} className="h-[65px] w-[200px]"/>

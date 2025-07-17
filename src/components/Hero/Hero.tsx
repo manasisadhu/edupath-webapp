@@ -4,16 +4,16 @@ import Image from "next/image";
 const Hero = () => {
     return (
         <>
-        <div className="lg:flex justify-between items-center px-20">
+        <div className="flex justify-between items-center px-24 lg:flex-row flex-col">
         {/* tick */}
-        <div className="">
+        <div className="lg:flex flex-col items-start text-left">
          <div className="flex items-center justify-center p-4 ">
             <div className=""> <BadgeCheck className="text-green-800" size={34}/> </div>
             <div className="font-bold text-green-800">Get 30% of on first enroll</div>
             </div>  
         {/* tick */}
         {/* head  */}
-        <div className="text-5xl font-bold text-black text-center lg:text-left">Learn engineering <br /> from top exprets</div>
+        <div className="text-5xl font-bold  text-center lg:text-left lg:text-[65px]">Learn engineering <br /> from top exprets</div>
         {/* head  */}
         {/* quote  */}
         <div className="text-[18px] text-center font-medium mt-6">Build skills with our courses and mentor from world class companies</div>
