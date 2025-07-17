@@ -1,9 +1,13 @@
-import ThemeChangerBtn from "@/components/Theme/ThemeChangerBtn";
+
+import Switchnav from "@/components/Nav/Switchnav";
+
+
+
 
 const page = () => {
   return (
     <>
-      <ThemeChangerBtn/>
+     <Switchnav/>
     </>
   );
 }
