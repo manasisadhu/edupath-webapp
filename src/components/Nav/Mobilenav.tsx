@@ -1,22 +1,16 @@
+import { Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "../ui/sheet";
-import { Menu } from "lucide-react";
-import ThemeChangerBtn from "../Theme/ThemeChangerBtn";
 
 const Mobilenav = () => {
     return (
         <>
-          <header className=" container p-7 flex justify-between items-center">
-            {/* logo */}
-            <Link href={"/"}>
-            <Image src={"/logo.png"} alt="logo" height={200} width={200}>
-            </Image>
-            </Link>
-            {/* logo */}
-            <div className=" flex gap-10">
-            {/* sheet  */}
-             <Sheet>
+         
+       
+           
+       {/* sheet  */}
+        <Sheet>
         <SheetTrigger className="bg-purple-400 p-2">
           {/* triger icon  */}
           <Menu
@@ -28,13 +22,8 @@ const Mobilenav = () => {
           <SheetHeader>
             <SheetTitle className="flex justify-center border-b-2 pb-4">
               <Link href={"/"}>
-                <Image
-                  src={"/temporary-logo.png"}
-                  alt="Logo"
-                  width={100}
-                  height={100}
-                  className="h-8 w-30"
-                />
+                <Image src={"/logo-img.png"} alt="logo" height={400} width={400} className="h-[65px] w-[200px]"/>
+                          
               </Link>
             </SheetTitle>
           </SheetHeader>
@@ -62,12 +51,9 @@ const Mobilenav = () => {
           </div>
         </SheetContent>
       </Sheet>
-            {/* sheet  */}
-            {/* btn  */}
-            <ThemeChangerBtn/>
-            {/* btn  */}
-            </div>
-            </header>  
+     {/* sheet  */}
+            
+           
         </>
     );
 }
