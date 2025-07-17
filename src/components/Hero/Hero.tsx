@@ -35,7 +35,7 @@ const Hero = () => {
         {/* tick card*/}
         </div>
         {/* img  */}
-        <Image src={"/hero.png"} alt="" height={400} width={400} className="mt-6 lg:h-[600] w-[600]"/>
+        <Image src={"/mahila.webp"} alt="" height={1200} width={1200} className="mt-6 lg:h-[600] w-[600]"/>
         {/* img  */}
         </div>
 
