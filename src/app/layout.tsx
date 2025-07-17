@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ReactNode } from "react";
 import { ThemeProvider } from "@/components/Theme/ThemeProvider";
+import Switchnav from "@/components/Nav/Switchnav";
 
 
 
@@ -25,6 +26,7 @@ type RootLayoutpropstype =  Readonly<{
            attribute="class"
            defaultTheme="light"
            enableSystem>
+       <Switchnav/>
         <main>
         {children}
         </main>

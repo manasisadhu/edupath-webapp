@@ -20,7 +20,7 @@ const Mobilenav = () => {
         </SheetTrigger>
         <SheetContent>
           <SheetHeader>
-            <SheetTitle className="flex justify-center border-b-2 pb-4">
+            <SheetTitle className="flex justify-center border-b-2 ">
               <Link href={"/"}>
                 <Image src={"/logo-img.png"} alt="logo" height={400} width={400} className="h-[65px] w-[200px]"/>
                           
@@ -36,17 +36,17 @@ const Mobilenav = () => {
             <Link
               href={"/about"}
               className="hover:text-red-400">
-              About
+              Courses
             </Link>
             <Link
               href={"/services"}
               className="hover:text-red-400">
-              Services
+              Mentor
             </Link>
             <Link
               href={"/projects"}
               className="hover:text-red-400">
-              Projects
+              Contact Us
             </Link>
           </div>
         </SheetContent>
