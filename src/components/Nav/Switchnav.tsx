@@ -4,7 +4,7 @@ import Mobilenav from "./Mobilenav";
 const Switchnav = () => {
     return (
         <>
-          <header>
+          <header  className="">
             {/* desktop  */}
             <div className="text-md hidden items-center  font-semibold lg:flex">
                 <Desktopnav/>

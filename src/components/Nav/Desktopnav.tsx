@@ -5,7 +5,7 @@ import ThemeChangerBtn from "../Theme/ThemeChangerBtn";
 const Desktopnav = () => {
     return (
         <>
-         <header className="container p-7 flex justify-between items-center">
+         <header className="container  flex justify-between items-center shadow-2xl">
            {/* logo   */}
            <Link href={"/"}>
             <Image src={"/logo.png"} alt="logo" height={200} width={200}>

@@ -7,7 +7,7 @@ import ThemeChangerBtn from "../Theme/ThemeChangerBtn";
 const Mobilenav = () => {
     return (
         <>
-          <header className=" container p-7 flex justify-between items-center">
+          <header className=" container p-4 flex justify-between items-center">
             {/* logo */}
             <Link href={"/"}>
             <Image src={"/logo.png"} alt="logo" height={200} width={200}>
