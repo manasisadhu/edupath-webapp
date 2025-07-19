@@ -31,13 +31,52 @@ const Bslide = () => {
 				}}
 				modules={[Autoplay, FreeMode]}
 				className="mySwiper">
-        
-		<SwiperSlide><Image src={"/airbnb.svg"} alt="uber" height={100} width={100}  className="mx-auto h-[100px] w-[100px]"  /></SwiperSlide>
-        <SwiperSlide><Image src={"/fedex.svg"} alt="uber" height={100} width={100}  className="mx-auto h-[100px] w-[100px]"  /></SwiperSlide>
-        <SwiperSlide><Image src={"/google.svg"} alt="uber" height={100} width={100}  className="mx-auto h-[100px] w-[100px]"  /></SwiperSlide>
-        <SwiperSlide><Image src={"/hubspot.svg"} alt="uber" height={100} width={100}  className="mx-auto h-[100px] w-[100px]"  /></SwiperSlide>
-        <SwiperSlide><Image src={"/walmart.svg"} alt="uber" height={100} width={100}  className="mx-auto h-[100px] w-[150px]"  /></SwiperSlide>
-		</Swiper>
+				<SwiperSlide>
+					<Image
+						src={"/airbnb.svg"}
+						alt="uber"
+						height={100}
+						width={100}
+						className="mx-auto h-[100px] w-[100px]"
+					/>
+				</SwiperSlide>
+				<SwiperSlide>
+					<Image
+						src={"/fedex.svg"}
+						alt="uber"
+						height={100}
+						width={100}
+						className="mx-auto h-[100px] w-[100px]"
+					/>
+				</SwiperSlide>
+				<SwiperSlide>
+					<Image
+						src={"/google.svg"}
+						alt="uber"
+						height={100}
+						width={100}
+						className="mx-auto h-[100px] w-[100px]"
+					/>
+				</SwiperSlide>
+				<SwiperSlide>
+					<Image
+						src={"/hubspot.svg"}
+						alt="uber"
+						height={100}
+						width={100}
+						className="mx-auto h-[100px] w-[100px]"
+					/>
+				</SwiperSlide>
+				<SwiperSlide>
+					<Image
+						src={"/walmart.svg"}
+						alt="uber"
+						height={100}
+						width={100}
+						className="mx-auto h-[100px] w-[150px]"
+					/>
+				</SwiperSlide>
+			</Swiper>
 		</>
 	);
 };
