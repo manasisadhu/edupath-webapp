@@ -1,5 +1,6 @@
 
 import Hero from "@/components/Hero/Hero";
+import Bslide from "@/components/Slider/Bslide";
 
 
 
@@ -15,7 +16,11 @@ const page = () => {
   
     {/* hero   */}
      <Hero/>
-    {/* hero   */}
+  
+  
+    <section className="py-6 px-24">
+        <Bslide/>
+    </section>
 
     </>
   );
