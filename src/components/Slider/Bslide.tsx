@@ -11,6 +11,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Bslide = () => {
 	return (
 		<>
+			<div className="flex justify-center font-bold text-2xl mt-4 mb-3">
+				Trusted by companies of all sizes
+			</div>
 			<Swiper
 				slidesPerView={1}
 				loop={true}
